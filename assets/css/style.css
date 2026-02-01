@@ -1,0 +1,44 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1495521821757-a1efb6729352?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+}
+
+.btn-primary:hover {
+    background-color: #ff4757;
+    border-color: #ff4757;
+}
+
+/* Estilo extra para el mensaje de error */
+.alert-info {
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
